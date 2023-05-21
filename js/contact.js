@@ -56,7 +56,7 @@
 						}
 						else {
 							$('#err-state').slideDown('slow');
-							$("#err-state").html('An error occurred: ' + error + '');
+							$('#ajaxsuccess').slideDown('slow');
 						}
 					},
 					success: function() {
